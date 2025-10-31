@@ -101,12 +101,12 @@ This system is a **2-visit warehouse system**, where:
 ---
 ### Some Figues from the website:
 <img width="2874" height="1724" alt="image" src="https://github.com/user-attachments/assets/e58682ea-8a90-4c0a-bf35-8769c5b02a28" />
+<img width="2880" height="1630" alt="image" src="https://github.com/user-attachments/assets/f5892861-266f-458f-92eb-312f98a8afa2" />
+<img width="2880" height="1622" alt="image" src="https://github.com/user-attachments/assets/6fbf90fb-5071-4dc1-bd2b-b0f7440ef74e" />
 <img width="2878" height="1626" alt="image" src="https://github.com/user-attachments/assets/fe0e7439-95b3-49c9-bd0f-f788bda0b27b" />
 <img width="2880" height="1630" alt="image" src="https://github.com/user-attachments/assets/b1a547f7-3a69-461f-93fa-1b51de507999" />
 <img width="2876" height="1636" alt="image" src="https://github.com/user-attachments/assets/b48931cd-8bcc-4c3e-ac50-435babc24d41" />
 <img width="2878" height="1626" alt="image" src="https://github.com/user-attachments/assets/ac233e1c-00e4-4cdc-930a-2beb2d5c1dbf" />
-<img width="2880" height="1630" alt="image" src="https://github.com/user-attachments/assets/f5892861-266f-458f-92eb-312f98a8afa2" />
-<img width="2880" height="1622" alt="image" src="https://github.com/user-attachments/assets/6fbf90fb-5071-4dc1-bd2b-b0f7440ef74e" />
 
 
 
