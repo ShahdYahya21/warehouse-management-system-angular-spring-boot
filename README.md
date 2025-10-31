@@ -107,7 +107,6 @@ This system is a **2-visit warehouse system**, where:
 <img width="2878" height="1626" alt="image" src="https://github.com/user-attachments/assets/ac233e1c-00e4-4cdc-930a-2beb2d5c1dbf" />
 <img width="2880" height="1630" alt="image" src="https://github.com/user-attachments/assets/f5892861-266f-458f-92eb-312f98a8afa2" />
 <img width="2880" height="1622" alt="image" src="https://github.com/user-attachments/assets/6fbf90fb-5071-4dc1-bd2b-b0f7440ef74e" />
-<img width="2880" height="1622" alt="image" src="https://github.com/user-attachments/assets/67aa2091-e51f-4823-b4b8-17cc3a6690bf" />
 
 
 
