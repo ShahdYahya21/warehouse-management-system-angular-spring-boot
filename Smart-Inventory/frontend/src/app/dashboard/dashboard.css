@@ -1,0 +1,94 @@
+
+.dashboard-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.tree-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-family: "Montserrat";
+  padding-left: 20px;
+  width: 200px;
+
+}
+
+.fa-solid.fa-warehouse {
+  font-size: 40px;
+  color: #244BC5;
+  margin-bottom: 20px;
+}
+
+mat-tree {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+mat-tree .mat-tree-node {
+  color: #244BC5;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+mat-tree .mat-tree-node:hover {
+  background-color: #f1f5ff;
+  cursor: pointer;
+}
+
+mat-tree .mat-tree-node .mat-icon {
+  color: #244BC5;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+/* .content-area {
+  flex-grow: 1;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+} */
+
+/* .main-page{
+  display: block;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;  
+  text-align: center;   
+  background-color: #f4f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.main-page h2 {
+  font-size: 2rem;
+  color: #244BC5;
+}
+
+.main-page p {
+  font-size: 1.2rem;
+  color: #555;
+} */
+
+.tree-container, mat-tree, mat-tree .mat-tree-node {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  background-color: #f1f5ff;
+  overflow: hidden;
+}
+
+

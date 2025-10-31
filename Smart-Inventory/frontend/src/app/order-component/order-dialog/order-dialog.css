@@ -1,0 +1,42 @@
+.product-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* keeps info left and input right */
+  gap: 16px; /* spacing between info and field */
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.product-info {
+  flex: 1; /* take available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.product-stock {
+  font-size: 12px;
+  color: #777;
+}
+
+.quantity-field {
+  flex-shrink: 0; /* prevent shrinking */
+  width: 120px;
+}
+.no-products {
+  padding: 16px;
+  text-align: center;
+  color: #d32f2f; /* error red */
+}
+
+.custom-width {
+  width: 1000px !important; 
+  max-width: 90% !important;
+}

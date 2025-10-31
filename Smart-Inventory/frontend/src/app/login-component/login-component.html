@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="background">
+        <div class="login-page">
+            <div class="title">{{ constants.TITLE }}</div>
+            <i class="fa-solid fa-warehouse"></i>
+            <div class="email-section">
+                <img class="email-image" [src]="constants.ICONS.EMAIL">
+                <input type="text" [placeholder]="constants.PLACEHOLDERS.EMAIL" class="email-field"
+                    [formControl]="email"
+                    [ngStyle]="(loggingIn && (email.invalid || (!emailExists && password.valid))) ? {'border': '1px solid red'} : {}">
+
+                @if(loggingIn && (email.invalid || (!emailExists && password.valid))) {
+                <img class="wrong-image" [src]="constants.ICONS.WRONG">
+                <p class="error-message">{{ error }}</p>
+
+                }
+            </div>
+            <div class="password-section">
+                <img class="password-image" [src]="constants.ICONS.PASSWORD">
+                <input type="password" [placeholder]="constants.PLACEHOLDERS.PASSWORD" class="password-field"
+                    [formControl]="password"
+                    [ngStyle]="(loggingIn && email.valid && (password.invalid || wrongPassword)) || (loggingIn
+                && emailExists && wrongPassword) ? {'border': '1px solid red'} : {}">
+
+                @if((loggingIn && email.valid && (password.invalid || wrongPassword)) || (loggingIn
+                && emailExists && wrongPassword)){
+                <img class="wrong-image" [src]="constants.ICONS.WRONG">
+                <p class="error-message">{{ error }}</p>
+                }
+            </div>
+            <button class="login-button" (click)="login()">{{ constants.BUTTON.TEXT }}</button>
+        </div>
+        <div class="graphic1">
+            <img class="graphic1-image" src="../../assets/Graphic1.png">
+        </div>
+        <div class="graphic2">
+            <img class="graphic2-image" src="../../assets/Graphic2.png">
+        </div>
+    </div>
+</body>
+
+</html>
